@@ -1,0 +1,33 @@
+table
+{
+    border-collapse: collapse;
+    table-layout: auto;
+    width: 20px;
+}
+
+#table-one
+{
+    border-collapse: separate;
+    empty-cells: hide;
+}
+
+#table-two
+{
+    caption-side: bottom;
+    border-collapse: separate;
+    empty-cells: show;
+}
+
+#table-three
+{
+    caption-side: top;
+    border-collapse: collapse;
+    empty-cells: show;
+}
+
+#table-for
+{
+    caption-side: bottom;
+    border-collapse: collapse;
+    empty-cells: hide;
+}
